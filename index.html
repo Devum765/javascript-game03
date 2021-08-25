@@ -1672,5 +1672,8 @@ function RandomEvent() {
 
 <table border=0 style="position:absolute; top:491px;left:700px;border-collapse:collapse;"><tr><td><form name="For06"><input type="button" value="-25" onclick="M25()"><input type="button" value="-5" onclick="M5()"><input type="button" value="-1" onclick="M1()"><input name="Tex00" type="text" size="1" value="1"><input type="button" value="+1" onclick="P1()"><input type="button" value="+5" onclick="P5()"><input type="button" value="+25" onclick="P25()"></form></table>
 
+<p>適当な国に入って、手番終了しまくっていると、ドイツがルーマニアを属国化すると思います。そこで出てくるUncaught TypeError: Cannot read property '12' of undefinedというエラーの原因を教えてほしいです。</p>
+<p>エラーの場所はAIが従属要求コマンドの使用を検討する所で、AI国orそのAI国の従属国に接する領土を保有する国のみが従属要求コマンドの対象になっています。AreaSetuzokuDataは0だとエリア同士が非接続、1で接続です。HenAは変数A、HenBは変数B、AreaSousuはエリアの総数ということです。</p>
+	
 </body>
 </html>
